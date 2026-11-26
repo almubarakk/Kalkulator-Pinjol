@@ -1,17 +1,69 @@
-# kalkulator_kredit
+# 🧮 Kalkulator Kredit & Simulasi Pinjaman
 
-A new Flutter project.
+Selamat datang di repositori **Kalkulator Kredit**, aplikasi berbasis Flutter yang dirancang untuk membantu pengguna memperkirakan kewajiban pembayaran sebelum mengajukan pinjaman.
 
-## Getting Started
+Aplikasi ini memudahkan pengguna mengetahui taksiran pembayaran secara praktis cukup dengan memasukkan **jumlah pinjaman**, **tingkat bunga**, dan **jangka waktu tenor/tempo**. Dengan begitu, pengguna dapat melihat gambaran estimasi cicilan dan total pembayaran lebih awal sebelum mengambil keputusan finansial.
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- 💰 Input nominal pinjaman (dalam satuan jutaan)
+- 📈 Perhitungan bunga dan taksiran pembayaran otomatis
+- ⏳ Pengaturan jangka waktu tenor / tempo pinjaman
+- 🔄 Navigasi antar halaman input dan hasil simulasi
+- 📱 Antarmuka mobile yang ringkas dan mudah digunakan
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🏗️ Arsitektur Proyek
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Repositori ini merupakan aplikasi mobile berbasis **Flutter** dengan struktur folder utama sebagai berikut:
+
+```text
+kalkulator_kredit/
+│
+├── lib/                 # Kode sumber utama (halaman input, logika hitung, UI)
+├── android/             # Konfigurasi build Android
+├── ios/                 # Konfigurasi build iOS
+├── web/                 # Konfigurasi target web
+├── pubspec.yaml         # Daftar dependensi dan aset proyek
+└── README.md            # Dokumentasi proyek
+```
+
+## 🔄 Alur Penggunaan
+
+```text
+Pengguna
+   │
+   ▼
+Membuka Aplikasi & Masuk ke Halaman Input
+   │
+   ▼
+Mengisi Jumlah Pinjaman, Bunga, dan Tempo/Tenor
+   │
+   ▼
+Sistem Menghitung Taksiran Pembayaran
+   │
+   ▼
+Hasil Estimasi Pembayaran Ditampilkan ke Pengguna
+```
+
+## 🛠️ Fitur yang Telah Diimplementasikan
+
+- ✅ Halaman awal & navigasi menuju form input
+- ✅ Input parameter pinjaman, bunga, dan tenor
+- ✅ Perhitungan estimasi pembayaran berbasis input pengguna
+- ✅ Struktur proyek Flutter multi-platform (Dart, HTML, Kotlin)
+
+## 📦 Tech Stack
+
+### Framework & Bahasa
+- Flutter
+- Dart
+- Kotlin (Android)
+- HTML
+
+## 📌 Catatan
+
+Hasil perhitungan yang ditampilkan pada aplikasi ini bersifat **simulasi / estimasi** untuk membantu gambaran awal pembayaran, sehingga nilai aktual dapat berbeda mengikuti kebijakan dan ketentuan masing-masing penyedia layanan.
+
+## 👨‍💻 Developer
+
+**Mush'ab Al Mubarak**
